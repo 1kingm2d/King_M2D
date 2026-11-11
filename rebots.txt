@@ -3,4 +3,4 @@ Allow: /
 Disallow: /admin/
 
 # Replace with your real site URL after deploying:
-Sitemap: https://YOUR-USERNAME.github.io/YOUR-REPO/sitemap.xml
+Sitemap: https://1kingm2d.github.io/King_M2D/sitemap.xml
