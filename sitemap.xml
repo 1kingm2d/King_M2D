@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Replace YOUR-USERNAME and YOUR-REPO with your real address (or your custom domain). -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPO/</loc></url>
-  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPO/videos.html</loc></url>
-  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPO/social.html</loc></url>
-  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPO/downloads.html</loc></url>
-  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPO/merch.html</loc></url>
-  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPO/support.html</loc></url>
-  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPO/fan-corner.html</loc></url>
-  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPO/about.html</loc></url>
-  <url><loc>https://YOUR-USERNAME.github.io/YOUR-REPO/contact.html</loc></url>
+  <url><loc>https://1kingm2d.github.io/King_M2D/</loc></url>
+  <url><loc>https://1kingm2d.github.io/King_M2D/videos.html</loc></url>
+  <url><loc>https://1kingm2d.github.io/King_M2D/social.html</loc></url>
+  <url><loc>https://1kingm2d.github.io/King_M2D/downloads.html</loc></url>
+  <url><loc>https://1kingm2d.github.io/King_M2D/merch.html</loc></url>
+  <url><loc>https://1kingm2d.github.io/King_M2D/support.html</loc></url>
+  <url><loc>https://1kingm2d.github.io/King_M2D/fan-corner.html</loc></url>
+  <url><loc>https://1kingm2d.github.io/King_M2D/about.html</loc></url>
+  <url><loc>https://1kingm2d.github.io/King_M2D/contact.html</loc></url>
 </urlset>
