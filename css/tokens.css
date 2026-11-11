@@ -1,0 +1,70 @@
+/* ALL colors, spacing, radius and shadows live here. Retheme from this one file. */
+:root {
+  color-scheme: dark;
+
+  /* Brand */
+  --red: #e11d2e;
+  --red-strong: #ff4d5a;   /* red used for text on dark surfaces (AA contrast) */
+  --blue: #4da3ff;
+  --ash-900: #111114;
+  --ash-800: #1a1b1f;
+  --ash-700: #24262b;
+  --ash-500: #5b5f68;
+  --ash-300: #a3a7b0;
+
+  /* Dark theme (default) */
+  --bg: #0b0b0d;
+  --surface: #17181c;
+  --surface-2: #1f2025;
+  --border: #2c2e35;
+  --text: #f1f2f4;
+  --text-muted: #a3a7b0;
+  --accent: var(--red);
+  --accent-text: var(--red-strong);
+  --accent-2: var(--blue);
+  --on-accent: #ffffff;
+  --glass: rgba(23, 24, 28, 0.72);
+  --gradient: linear-gradient(135deg, #e11d2e 0%, #4da3ff 100%);
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.45);
+  --focus: #4da3ff;
+
+  /* Spacing scale */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4.5rem;
+
+  /* Shape and type */
+  --radius-sm: 8px;
+  --radius: 14px;
+  --radius-lg: 22px;
+  --font: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --maxw: 1120px;
+  --header-h: 64px;
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+/* Light theme: milky cream, never pure white */
+:root[data-theme="light"] {
+  color-scheme: light;
+  --bg: #f6f1e7;
+  --surface: #fbf8f1;
+  --surface-2: #ece6d9;
+  --border: #d9d1c0;
+  --text: #2b2d31;
+  --text-muted: #565a62;
+  --accent: #c0121f;
+  --accent-text: #b00f1c;
+  --accent-2: #1558b0;
+  --on-accent: #ffffff;
+  --glass: rgba(251, 248, 241, 0.78);
+tokens.css  --gradient: linear-gradient(135deg, #c0121f 0%, #1558b0 100%);
+  --shadow-sm: 0 1px 2px rgba(60, 50, 30, 0.12);
+  --shadow-md: 0 8px 24px rgba(60, 50, 30, 0.16);
+  --focus: #1558b0;
+}

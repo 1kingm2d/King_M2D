@@ -1,0 +1,8 @@
+{
+  "_note": "SAMPLE pinned posts, shown only if the Instagram widget is empty or fails. Manage them in the admin.",
+  "posts": [
+    { "id": "sample-1", "image": "", "caption": "SAMPLE: Behind the scenes of my latest render.", "link": "" },
+    { "id": "sample-2", "image": "", "caption": "SAMPLE: Work in progress shot from Blender.", "link": "" },
+    { "id": "sample-3", "image": "", "caption": "SAMPLE: New animation drops soon.", "link": "" }
+  ]
+}

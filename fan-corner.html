@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fan Corner | King M2D</title>
+  <meta name="description" content="Send King M2D your video ideas, feedback, collab ideas and fan art.">
+  <meta name="theme-color" content="#0b0b0d">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Fan Corner | King M2D">
+  <meta property="og:description" content="Send video ideas, feedback and fan art.">
+  <meta property="og:image" content="assets/placeholders/sample.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/placeholders/sample.svg" type="image/svg+xml">
+  <script src="js/theme.js"></script>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body data-root="./" data-page="fan-corner">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div id="site-header"></div>
+  <main id="main">
+    <section class="section">
+      <div class="container">
+        <h1>Fan Corner</h1>
+        <p id="fan-closed" class="muted" hidden>The Fan Corner is closed right now. Check back soon!</p>
+        <div id="fan-wrap">
+          <p class="muted">Send me video ideas, feedback, collab ideas, requests, or links to your fan art. Links are reviewed before anything is shared.</p>
+          <form id="fan-form" class="form" novalidate>
+            <div class="field">
+              <label for="f-name">Name (optional)</label>
+              <input id="f-name" class="input" type="text" maxlength="80" autocomplete="name">
+            </div>
+            <div class="field">
+              <label for="f-email">Contact email (optional, so I can reply)</label>
+              <input id="f-email" class="input" type="email" maxlength="120" autocomplete="email">
+            </div>
+            <div class="field">
+              <label for="f-type">Type</label>
+              <select id="f-type" class="select">
+                <option>Video idea</option>
+                <option>Feedback</option>
+                <option>Request</option>
+                <option>Collab idea</option>
+                <option>Fan art or work</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="f-message">Message</label>
+              <textarea id="f-message" class="textarea" required></textarea>
+              <div id="f-counter" class="counter">0 / 1000</div>
+            </div>
+            <div class="field">
+              <label for="f-link">Link (optional)</label>
+              <input id="f-link" class="input" type="url" maxlength="300" placeholder="https://">
+            </div>
+            <div class="hp" aria-hidden="true">
+              <label for="f-website">Leave this empty</label>
+              <input id="f-website" type="text" tabindex="-1" autocomplete="off">
+            </div>
+            <button id="f-submit" class="btn btn-primary" type="submit">Send</button>
+            <div id="fan-status" class="status" role="status" aria-live="polite" hidden></div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section id="follow-section" class="section" aria-label="Follow"></section>
+  </main>
+  <div id="site-footer"></div>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

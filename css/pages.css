@@ -1,0 +1,31 @@
+/* Page-specific styles */
+.page-head { padding: var(--space-7) 0 var(--space-4); }
+.filters { display: flex; flex-wrap: wrap; gap: var(--space-3); align-items: center; margin-bottom: var(--space-5); }
+.chip { min-height: 40px; padding: 0 var(--space-4); font: inherit; font-weight: 600; color: var(--text); background: var(--surface); border: 1px solid var(--border); border-radius: 999px; cursor: pointer; }
+.chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
+.input, .select, .textarea { width: 100%; min-height: 46px; padding: var(--space-3) var(--space-4); font: inherit; color: var(--text); background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-sm); }
+.textarea { min-height: 150px; resize: vertical; }
+.input:focus, .select:focus, .textarea:focus { border-color: var(--accent-2); }
+.search { flex: 1 1 220px; max-width: 360px; }
+.meta { display: flex; flex-wrap: wrap; gap: var(--space-2); margin: var(--space-2) 0; }
+.tag { padding: 2px var(--space-3); font-size: 0.78rem; font-weight: 600; color: var(--text-muted); background: var(--surface-2); border-radius: 999px; }
+.tag.patreon { color: var(--on-accent); background: var(--accent); }
+.dl-card .card-body { display: grid; gap: var(--space-2); }
+.price { font-weight: 800; color: var(--accent-text); }
+.product img { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; background: var(--surface-2); }
+.tiers { display: grid; gap: var(--space-5); grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); }
+.tier { padding: var(--space-5); }
+.tier ul { padding-left: 1.2rem; margin: var(--space-3) 0 0; }
+
+/* Forms */
+.form { display: grid; gap: var(--space-4); max-width: 640px; }
+.field { display: grid; gap: var(--space-2); }
+.field label { font-weight: 600; }
+.counter { text-align: right; font-size: 0.8rem; color: var(--text-muted); }
+.hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+.status { padding: var(--space-4); border-radius: var(--radius-sm); border: 1px solid var(--border); background: var(--surface); }
+.status.ok { border-color: #2fbf71; }
+.status.err { border-color: var(--accent); }
+.status .btn { margin-top: var(--space-3); }
+.chips { display: flex; flex-wrap: wrap; gap: var(--space-2); padding: 0; list-style: none; }
+.chips li { padding: var(--space-2) var(--space-4); background: var(--surface); border: 1px solid var(--border); border-radius: 999px; }

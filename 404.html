@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page not found | King M2D</title>
+  <meta name="description" content="This page could not be found.">
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#0b0b0d">
+  <!-- GitHub Pages serves this file at ANY missing URL, so relative paths need a base.
+       On username.github.io/repo/ the base is /repo/. On a custom domain it is /. -->
+  <script>
+    (function () {
+      var parts = location.pathname.split("/");
+      var base = (/\.github\.io$/.test(location.hostname) && parts[1]) ? "/" + parts[1] + "/" : "/";
+      document.write('<base href="' + base + '">');
+    })();
+  </script>
+  <link rel="icon" href="assets/placeholders/sample.svg" type="image/svg+xml">
+  <script src="js/theme.js"></script>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body data-root="./" data-page="404">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div id="site-header"></div>
+  <main id="main">
+    <section class="section">
+      <div class="container">
+        <h1>404</h1>
+        <p class="muted">That page doesn't exist. It may have moved or the link is wrong.</p>
+        <div class="btn-row">
+          <a class="btn btn-primary" href="index.html">Go home</a>
+          <a class="btn" href="videos.html">Watch videos</a>
+        </div>
+      </div>
+    </section>
+    <section id="follow-section" class="section" aria-label="Follow"></section>
+  </main>
+  <div id="site-footer"></div>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

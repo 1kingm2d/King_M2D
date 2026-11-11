@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Social Feed | King M2D</title>
+  <meta name="description" content="Latest posts from King M2D on Instagram and Facebook, plus all social links.">
+  <meta name="theme-color" content="#0b0b0d">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Social Feed | King M2D">
+  <meta property="og:description" content="Instagram and Facebook feeds from King M2D.">
+  <meta property="og:image" content="assets/placeholders/sample.svg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/placeholders/sample.svg" type="image/svg+xml">
+  <script src="js/theme.js"></script>
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+</head>
+<body data-root="./" data-page="social">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div id="site-header"></div>
+  <main id="main">
+    <section class="section">
+      <div class="container">
+        <h1>Social Feed</h1>
+        <div class="tabs" role="tablist" aria-label="Social feeds">
+          <button class="tab" role="tab" id="tab-instagram" data-tab="instagram" aria-selected="true" aria-controls="panel-instagram">Instagram</button>
+          <button class="tab" role="tab" id="tab-facebook" data-tab="facebook" aria-selected="false" aria-controls="panel-facebook" tabindex="-1">Facebook</button>
+        </div>
+        <div id="panel-instagram" role="tabpanel" aria-labelledby="tab-instagram" class="widget-box"></div>
+        <div id="panel-facebook" role="tabpanel" aria-labelledby="tab-facebook" class="widget-box" hidden></div>
+      </div>
+    </section>
+    <section id="follow-section" class="section" aria-label="Follow"></section>
+  </main>
+  <div id="site-footer"></div>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

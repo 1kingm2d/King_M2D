@@ -1,0 +1,56 @@
+{
+  "_note": "SAMPLE CONTENT. Replace everything from the admin page. Empty links are hidden automatically.",
+  "brand": {
+    "name": "King M2D",
+    "tagline": "3D animation and Blender content, made with love and a low-end laptop.",
+    "logo": "",
+    "avatar": "",
+    "ogImage": ""
+  },
+  "about": {
+    "story": "SAMPLE: Hi, I'm King. I make 3D animations and Blender tutorials. Replace this text from the admin page.",
+    "gear": ["Blender", "Sample laptop", "Sample headphones"],
+    "skills": ["3D animation", "Modeling", "Lighting and rendering"]
+  },
+  "links": {
+    "youtube": "",
+    "instagram": "",
+    "tiktok": "",
+    "facebook": "",
+    "x": "",
+    "discord": "",
+    "patreon": "",
+    "kofi": ""
+  },
+  "emails": {
+    "fans": { "label": "Fans", "address": "", "visible": true },
+    "business": { "label": "Business", "address": "", "visible": true }
+  },
+  "youtubeChannelId": "",
+  "behold": "",
+  "facebookPageUrl": "",
+  "merch": { "storeUrl": "" },
+  "support": {
+    "intro": "SAMPLE: Support the channel and get extras.",
+    "tiers": [
+      { "name": "Supporter", "price": "$3/month", "benefits": ["SAMPLE: Name in credits", "SAMPLE: Early access"] },
+      { "name": "Creator", "price": "$7/month", "benefits": ["SAMPLE: Project files", "SAMPLE: Everything in Supporter"] }
+    ]
+  },
+  "fanCorner": {
+    "enabled": true,
+    "service": "web3forms",
+    "endpoint": ""
+  },
+  "workWithMe": {
+    "enabled": true,
+    "status": "available",
+    "offer": "SAMPLE: 3D animation, Blender scene work, product visuals.",
+    "note": "SAMPLE: Send a short brief and I'll reply with a quote and timeline.",
+    "buttons": [
+      { "id": "hire", "label": "Hire Me", "link": "", "enabled": true },
+      { "id": "commissions", "label": "Commissions", "link": "", "enabled": true },
+      { "id": "collabs", "label": "Collaborations / Sponsorships", "link": "", "enabled": true }
+    ]
+  }
+}

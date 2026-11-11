@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Admin | King M2D</title>
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#0b0b0d">
+  <link rel="icon" href="../assets/placeholders/sample.svg" type="image/svg+xml">
+  <script src="../js/theme.js"></script>
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/pages.css">
+  <link rel="stylesheet" href="../css/admin.css">
+</head>
+<body data-root="../" data-page="admin">
+
+  <!-- LOGIN -->
+  <section id="login" class="login" hidden>
+    <form id="login-form" class="card login-card" novalidate>
+      <h1>Admin login</h1>
+      <p class="muted small">Paste your repo name and your GitHub token. The token is saved only in this browser. Anyone with the token can edit your site, so never share it. The token is the real security: a front-end password alone would not be secure.</p>
+      <div class="field">
+        <label for="login-repo">Repo (username/repo-name)</label>
+        <input id="login-repo" class="input" type="text" placeholder="your-username/your-repo" autocomplete="off">
+      </div>
+      <div class="field">
+        <label for="login-token">GitHub fine-grained token</label>
+        <input id="login-token" class="input" type="password" autocomplete="off">
+      </div>
+      <button id="login-btn" class="btn btn-primary" type="submit">Connect</button>
+      <p id="login-error" class="status err" role="alert" hidden></p>
+    </form>
+  </section>
+
+  <!-- EDITOR -->
+  <div id="editor" hidden>
+    <header class="admin-bar">
+      <strong>King M2D admin</strong>
+      <span id="repo-label" class="muted small"></span>
+      <span class="spacer"></span>
+      <button id="reload-btn" class="btn" type="button">Reload</button>
+      <button id="logout-btn" class="btn" type="button">Log out / forget token</button>
+      <button id="save-btn" class="btn btn-primary" type="button" disabled>Save changes</button>
+    </header>
+    <div id="errors" class="status err" role="alert" hidden></div>
+    <div class="admin-layout">
+      <nav id="admin-nav" class="admin-nav" aria-label="Sections"></nav>
+      <main id="panel" class="admin-panel"></main>
+      <aside id="preview" class="admin-preview" aria-label="Live preview"></aside>
+    </div>
+  </div>
+
+  <input id="file-input" type="file" accept="image/png,image/jpeg,image/webp,image/gif" hidden>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+
+  <script type="module" src="../js/admin/admin.js"></script>
+</body>
+</html>

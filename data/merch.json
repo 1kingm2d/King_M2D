@@ -1,0 +1,8 @@
+{
+  "_note": "SAMPLE products. Manage them from the admin.",
+  "products": [
+    { "id": "sample-1", "name": "SAMPLE: King M2D Tee", "price": "$20", "image": "", "link": "" },
+    { "id": "sample-2", "name": "SAMPLE: Logo Sticker Pack", "price": "$5", "image": "", "link": "" },
+    { "id": "sample-3", "name": "SAMPLE: Mug", "price": "$12", "image": "", "link": "" }
+  ]
+}

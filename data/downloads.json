@@ -1,0 +1,43 @@
+{
+  "_note": "SAMPLE downloads. Edit, add, delete and reorder them from the admin. Empty url means 'Coming soon'.",
+  "updated": "2026-11-11",
+  "categories": ["Blender files", "Textures", "Presets"],
+  "items": [
+    {
+      "id": "sample-1",
+      "name": "SAMPLE: Desk Scene Starter",
+      "description": "SAMPLE: A clean .blend starter scene you can build on.",
+      "category": "Blender files",
+      "fileType": ".blend",
+      "size": "24 MB",
+      "license": "Free for personal and commercial use. Credit appreciated.",
+      "url": "",
+      "patreonOnly": false,
+      "featured": true
+    },
+    {
+      "id": "sample-2",
+      "name": "SAMPLE: Grunge Texture Pack",
+      "description": "SAMPLE: 10 seamless grunge textures.",
+      "category": "Textures",
+      "fileType": ".zip",
+      "size": "58 MB",
+      "license": "Personal use only.",
+      "url": "",
+      "patreonOnly": true,
+      "featured": false
+    },
+    {
+      "id": "sample-3",
+      "name": "SAMPLE: Lighting Presets",
+      "description": "SAMPLE: Three quick lighting setups for low-end PCs.",
+      "category": "Presets",
+      "fileType": ".blend",
+      "size": "3 MB",
+      "license": "Free for personal and commercial use.",
+      "url": "",
+      "patreonOnly": false,
+      "featured": true
+    }
+  ]
+}
